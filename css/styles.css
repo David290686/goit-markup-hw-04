@@ -224,7 +224,7 @@ button {
 	line-height: 24px;
 }
 .imagine {
-	padding-top: 0;
+	padding:120px 0;
 }
 .imagine-list {
 	display: flex;
