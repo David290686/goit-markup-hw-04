@@ -261,7 +261,7 @@ button {
 .what-are-we-doing {
 	margin: 120px 0;
 }
-.imagine {
+.image {
 	padding-top: 0;
 }
 .what-are-we-doing-container {
@@ -453,7 +453,7 @@ button {
 	fill: currentColor;
 }
 
-.portfolio-main {
+.portfolio {
 	padding: 120px 0;
 }
 .portfolio-container {
@@ -486,27 +486,27 @@ button {
 	background-color: #404bbf;
 	color: #ffffff;
 }
-.content {
+.services-link {
 	text-decoration: none;
 }
-.content-list {
+.services-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px 24px;
 }
-.content-container {
+.services-container {
 	padding: 32px 16px;
 	border-left: 1px solid #e7e9fc;
 	border-bottom: 1px solid #e7e9fc;
 	border-right: 1px solid #e7e9fc;
 }
-.content-subtitle {
+.services-subtitle {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	color: #2e2f42;
 }
-.content-text {
+.services-text {
 	font-size: 16px;
 	line-height: 1.5;
 	color: #434455;
