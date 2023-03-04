@@ -401,7 +401,7 @@ button {
 }
 .footer {
 	background-color: #2e2f42;
-	padding: 100px 0;
+	padding: 100px 156px;
 }
 .footer-text {
 	font-size: 16px;
@@ -414,7 +414,6 @@ button {
 .footer-container {
 	display: flex;
 	gap: 120px;
-	margin-left: 156px;
 }
 .footer-logo-list {
 	display: flex;
