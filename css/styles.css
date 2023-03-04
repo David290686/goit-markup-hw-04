@@ -284,6 +284,12 @@ button {
 	background-color: #f4f4fd;
 	padding: 120px 0;
 }
+.our-team-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .our-team-title {
 	color: #2e2f42;
 	font-size: 36px;
@@ -293,7 +299,6 @@ button {
 }
 .our-team-list {
 	display: flex;
-	flex-wrap: wrap;
 	gap: 24px;
 	color: #2e2f42;
 	font-size: 20px;
@@ -389,7 +394,6 @@ button {
 
 .footer {
 	background-color: #2e2f42;
-	color: #e7e9fc;
 	padding: 100px 0;
 }
 .footer-text {
@@ -402,12 +406,13 @@ button {
 }
 .footer-container {
 	display: flex;
-	align-items: center;
 	gap: 120px;
+	margin-left: 156px;
 }
 .footer-logo-list {
 	display: flex;
 	align-items: center;
+	
 }
 .footer-logo-item {
 }
@@ -421,7 +426,7 @@ button {
     color: #FFFFFF;
 	margin-bottom: 16px;
 }
-.footer-icon-social-list {
+.footer-icon-content {
 	display: flex;
 	justify-content: center;
 	gap: 16px;
