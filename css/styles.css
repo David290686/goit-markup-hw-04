@@ -224,9 +224,12 @@ button {
 	justify-content: space-between;
 }
 .skills-text {
+	font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 	width: 264px;
 	margin-top: 8px;
-	line-height: 24px;
 }
 .skills-social-list {
 	display: flex;
@@ -384,13 +387,16 @@ button {
 	fill: currentColor;
 }
 
-footer {
+.footer {
 	background-color: #2e2f42;
 	color: #e7e9fc;
 	padding: 100px 0;
 }
 .footer-text {
-	line-height: 24px;
+	font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 	margin-top: 16px;
 	width: 264px;
 }
@@ -399,11 +405,20 @@ footer {
 	align-items: center;
 	gap: 120px;
 }
+.footer-logo-list {
+	display: flex;
+	align-items: center;
+}
+.footer-logo-item {
+}
 .footer-icon-list {
-	width: 208px;
-	height: 80px;
+	
 }
 .footer-icon-text {
+	font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 	margin-bottom: 16px;
 }
 .footer-icon-social-list {
