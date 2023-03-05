@@ -157,9 +157,12 @@ button {
 }
 
 .hero {
+	max-width: 1440px;
 	background-color: #2e2f42;
 	text-align: center;
 	padding: 188px 0;
+	margin-left: auto;
+	margin-right: auto;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -380,8 +383,6 @@ button {
 .customers-social-item {
 	width: 168px;
 	height: 88px;
-	border: 1px solid #8e8f99;
-	border-radius: 4px;
 }
 .customers-social-link {
 	display: flex;
@@ -391,10 +392,11 @@ button {
 	height: 100%;
 	background-color: #ffffff;
 	color: #8e8f99;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
 }
 .customers-social-link:is(:hover, :focus) {
 	color: #404bbf;
-	border: 1px solid #404bbf;
 }
 .customers-social-icon {
 	fill: currentColor;
@@ -499,16 +501,15 @@ button {
 .services-link {
 	text-decoration: none;
 }
+.services-link:is(:hover, :focus) {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .services-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px 24px;
 }
 .services-item {
-}
-.services-item:is(:hover, :focus) {
-	border: 1px solid #f4f4fd;
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .services-container {
 	padding: 32px 16px;
