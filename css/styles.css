@@ -10,6 +10,12 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -259,7 +265,6 @@ button {
 .skills-social-icon {
 	fill: currentColor;
 }
-
 .what-are-we-doing {
 	margin: 120px 0;
 }
@@ -274,7 +279,6 @@ button {
 	flex-wrap: wrap;
 	gap: 24px;
 }
-
 .what-are-we-doing-title {
 	color: #2e2f42;
 	font-size: 36px;
@@ -499,7 +503,6 @@ button {
 	color: #ffffff;
 }
 .services-link {
-	text-decoration: none;
 }
 .services-link:is(:hover, :focus) {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
